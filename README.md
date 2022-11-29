@@ -7,8 +7,12 @@
 [![MIT License][license-shield]][license-url]
 [![Followers][followers-shield]][followers-url]
 
+<br />
+<div align="center">
 ![logo_too_many_Chefs small](https://user-images.githubusercontent.com/113049201/204643290-2885074f-9ecb-414b-8ed5-fa55ad89418e.png)
-
+  Too Many Chefs
+<br>
+  
 <br />
 <div align="center">
   <a href="">
