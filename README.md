@@ -7,11 +7,9 @@
 [![MIT License][license-shield]][license-url]
 [![Followers][followers-shield]][followers-url]
 
-<br />
-<div align="center">
-![logo_too_many_Chefs small](https://user-images.githubusercontent.com/113049201/204643290-2885074f-9ecb-414b-8ed5-fa55ad89418e.png)
-  Too Many Chefs
-<br>
+<div class="col-12">
+<h3 class="text-center text-white mb-4 me-5"> <img src="images/logo_too_many_Chefs small.png" class="navbar-brand" alt=""> Too Many Chefs</h3>
+</div>
   
 <br />
 <div align="center">
