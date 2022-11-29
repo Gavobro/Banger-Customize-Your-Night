@@ -8,7 +8,7 @@
 [![Followers][followers-shield]][followers-url]
 
 <div align="center">
-<h3 class="text-center text-white mb-4 me-5"> <img src="images/logo_too_many_Chefs small.png" class="navbar-brand" alt=""> Too Many Chefs</h3>
+<h3 class="text-center text-white mb-4 me-5"> <img src="assets/images/logo_too_many_Chefs small.png" class="navbar-brand" alt=""> Too Many Chefs</h3>
 </div>
   
 <br />
