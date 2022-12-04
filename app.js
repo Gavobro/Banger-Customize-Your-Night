@@ -78,5 +78,7 @@ searchBtn.addEventListener("click", () => {
    }
 })
 
-
+// 1. Pull data with one click fix async
+// 2. Pull more than one movie
+// 3. Search types: Popularity, Kids, date in theatre
     
