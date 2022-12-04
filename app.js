@@ -61,3 +61,22 @@ searchBtn.addEventListener("click", () => {
         // // code to display video element
         // imageElement.setAttribute("src", myMeal.strYoutube)
        })
+     fetch(movieUrl).then(res => res.json()).then(data => {
+        console.log(data)        
+        //for(var i==0; i<data ) -- ***************can we do a loop to loop through the array and select random movies***********
+        var myMovie = data.results[0];
+        console.log(myMovie.title)            
+                         
+        //***Comments to be added but this is to basically get the movie data and display on the page */
+        document.getElementById("movieTitle").textContent = myMovie.title
+        document.getElementById("movieOverview").textContent = myMovie.overview
+        imageUrl += myMovie.poster_path
+        movieImageEl.setAttribute("src", imageUrl)    
+
+                       
+    })
+   }
+})
+
+
+    
