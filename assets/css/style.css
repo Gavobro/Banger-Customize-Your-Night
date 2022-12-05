@@ -78,6 +78,7 @@ a:hover {
   color: var(--white);
   font-size: var(--menu-font-size);
   padding: 10px 35px;
+  margin-left: 10px;
 }
 
 .navbar {
