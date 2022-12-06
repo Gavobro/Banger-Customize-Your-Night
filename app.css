@@ -1,12 +1,16 @@
 
 body{
-  background-color: crimson;
+  background: linear-gradient(to left,purple ,crimson);
+  width: 100%;
+  min-height: 100vh;
   color: black;
+  
 }
 .search-container{
-background-color: gray;
+  background: linear-gradient(to right,hotpink ,black);
 color: white;
 padding: 60px;
+border-radius: 8px;
 }
 
 input{
@@ -33,22 +37,41 @@ button{
   font-size:18px ;
   background-color: black;
   color: white;
+  cursor: pointer;
  }
 
 
 #heading{
   text-align: center;
   font-size: 24px;
+  color: black;
 }
-img{
-  width:40%;
-  height: 15%;
+
+.leftrecipeimage{
+  
+  height: 400px;
+  padding-left: 50px;
+  display: inline-block;
+  margin-bottom: 10px;
+display: flex;
 }
-.left,
-.right {
 
-
-padding: 0.5rem;
-flex-grow: 1;
+.right ul{
+  float:right;
+  margin-top: 40px;
+  text-align: left;
+  padding-right: 80px;
+  font-size: 20px;
+}
+.instructions{
+  padding-bottom: 50px;
+  text-align: justify;
 
 }
+
+#movieSection img{
+  padding-top: 10px;
+  gap: 25px;
+
+}
+
