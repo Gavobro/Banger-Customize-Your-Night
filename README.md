@@ -157,13 +157,12 @@ Distributed under the MIT License. See "LICENSE.txt" for more information.
 
 ## Contact
 
-Mathieu Despres: [@GitHub](https://github.com/Mathieu-Despres) - mathieudespres@outlook.com<br>
-Tinashe Malenga: [@GitHub](https://github.com/tmalenga)<br>
-Gavin O’Brien: [@GitHub](https://github.com/Gavobro) - gavalobrien@gmail.com<br>
-Durgadevi Baskaran: [@GitHub](https://github.com/Durgavino) - mailtodurga93@gmail.com<br>
- 
+[Mathieu Despres](https://github.com/Mathieu-Despres)<br>
+[Tinashe Malenga](https://github.com/tmalenga)<br>
+[Gavin O’Brien](https://github.com/Gavobro)<br>
+[Durgadevi Baskaran](https://github.com/Durgavino)<br>
 
-Project Link: []()
+[Project Link](https://mathieu-despres.github.io/project-one-team-7/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
