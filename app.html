@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./app.css"/>
+    <link rel="stylesheet" href="./app.css" />
 </head>
+
 <body>
     <div class="container">
         <div class="search-container">
-            <input type="text" placeholder="Type a dish name" id="user-inp"/>
-            <select name="movieSelection" id="movie-inp">                 
+            <input type="text" placeholder="Type a dish name" id="user-inp" />
+            <select name="movieSelection" id="movie-inp">
                 <Option value="popularity" id="popularity">Popularity</Option>
                 <Option value="comedy" id="comedy">Commedy</Option>
                 <Option value="drama" id="drama">Best Dramas Released</Option>
-            </select>             
-            
+            </select>
+
             <button id="search-btn">Search</button>
         </div>
-        <div> 
+        <div>
 
-        <div> 
-            <img id="i" src="" alt="image">
-        </div>
-        <div id="heading">
-            <h4 id="mealName"></h4>
-            <h4 id="cuisine"></h4>
-            
-        </div>
-        <div id="ingred">
 
-        </div>
-        <div id="instructions">
-            
-        </div>
-        <!-- Video from you tube currently not workng?? To include???????? 
+            <div id="heading">
+                <h4 id="mealName"></h4>
+                <h4 id="cuisine"></h4>
+
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <img id="i" class="recipeimage" src="" alt="image">
+                </div>
+                
+                <div id="ingred" class="right">
+
+                </div>
+            </div>
+
+
+
+            <div id="instructions">
+
+            </div>
+            <!-- Video from you tube currently not workng?? To include???????? 
             <div>
             <iframe id="video" width="420" height="315" src="">                
             </iframe>
             
         </div> -->
-    </div>
+        </div>
 
-    <div id="movieSection">
+        <div id="movieSection">
 
-    </div>
-    
+        </div>
 
-    <script src="./app.js"></script>
+
+        <script src="./app.js"></script>
 </body>
 
 </html>
-
-   

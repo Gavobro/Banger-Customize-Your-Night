@@ -1,8 +1,54 @@
+
 body{
-    background-color: aqua;
+  background-color: crimson;
+  color: black;
+}
+.search-container{
+background-color: gray;
+color: white;
+padding: 60px;
+}
+
+input{
+  width: 40%;
+  padding: 10px;
+  border-radius: 8px;
+  border-color: black;
+  font-size:18px ;
+  background-color: black;
+  color: white;
+}
+#movie-inp{
+  width: 40%;
+  padding: 10px;
+  border-radius: 8px;
+  border-color: black;
+  font-size:18px ;
+  background-color: black;
+  color: white;
+}
+button{
+  border-radius: 8px;
+  padding: 10px;
+  font-size:18px ;
+  background-color: black;
+  color: white;
+ }
+
+
+#heading{
+  text-align: center;
+  font-size: 24px;
 }
 img{
-  padding: 1rem;
-    width: 25%;
-    height: 50%;
+  width:40%;
+  height: 15%;
+}
+.left,
+.right {
+
+
+padding: 0.5rem;
+flex-grow: 1;
+
 }
