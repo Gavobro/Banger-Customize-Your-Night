@@ -103,7 +103,32 @@ async function getMovies() {
         el.appendChild (movieOverview);
 
         document.getElementById("movieSection").appendChild (el);
-             
+
+        movieTitle.style.color='black';
+        movieTitle.style.fontSize='40px';
+        movieTitle.style.textAlign='center';
+        movieTitle.style.marginLeft='45%';
+        movieTitle.style.display='flex';
+        movieTitle.style.textShadow='0 0 3px #FF0000, 0 0 5px #0000FF';
+      
+
+        movieImage.style.height='600px';
+        movieImage.style.width='auto';
+        movieImage.style.paddingLeft='40px';
+        movieImage.style.marginLeft='38%';
+        movieImage.style.boxShadow='0px 0px 5px rgba(0,0,0,.3)';
+        movieImage.style.padding='7px';
+        movieImage.style.transform='(-50%,-50%)';
+        movieImage.style.perspective='1200';
+        movieImage.style.borderBlockColor='black';
+        movieImage.style.hover=' box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)';
+        movieImage.style.display='flex';
+        movieImage.style.flex='33.33%';
+        movieImage.style.padding='5px';
+       
+        movieOverview.style.textAlign='left';
+        movieOverview.style.fontSize='21px';
+        movieOverview.style.color='black';
         }
 
 
