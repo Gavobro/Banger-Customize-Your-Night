@@ -22,12 +22,12 @@ body {
     position: relative;
 }
 
-h2, h3{
+h2, h3, h4 {
   color: var(--black);
   line-height: inherit;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: var(--font-weight-semibold);
 }
 
@@ -44,7 +44,7 @@ h2 {
   font-size: var(--h2);
 }
 
-h3 {
+h3, h4 {
   font-size: var(--h3);
 }
 
@@ -217,8 +217,40 @@ a:hover {
   height: 100%;
 }
 
+hr {           
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 0.5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.leftrecipeimage{
+  
+  height: 400px;
+  padding-left: 50px;
+  display: inline-block;
+  margin-bottom: 10px;
+display: flex;
+}
+
+.right ul{
+  float:right;
+  margin-top: 40px;
+  text-align: left;
+  padding-right: 80px;
+  font-size: 20px;
+}
+
+#movieSection img{
+  padding-top: 10px;
+  gap: 25px;
+
+}
+
 .site-footer {
-  background-image: url('image here');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
