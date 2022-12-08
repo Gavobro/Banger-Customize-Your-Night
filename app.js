@@ -72,6 +72,13 @@ function showMeals(myMeal) {
 
     //code to change cuisine
     document.getElementById("cuisine").textContent = myMeal.strArea;
+
+
+ 
+ingr.style.justifyItems='left';
+   ingr.style.color='red';
+
+   
 }
 
 async function getMovies() {
