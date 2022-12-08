@@ -1,7 +1,7 @@
 # Bangé
 This is our workload for the first group project
 
-The URL of the deployed application can be found here!: 
+The URL of the deployed application can be found here!: https://gavobro.github.io/Banger-Customize-Your-Night/
 
 Our presentation can be found here: https://docs.google.com/presentation/d/1IhT2oI1JuzSWAksXY_PfDbukfKqgZyR9DvQmeUFjkR0/edit#slide=id.g1ab21bde689_3_1
 
