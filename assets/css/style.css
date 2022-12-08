@@ -22,12 +22,12 @@ body {
     position: relative;
 }
 
-h2, h3{
+h2, h3, h4 {
   color: var(--black);
   line-height: inherit;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: var(--font-weight-semibold);
 }
 
@@ -44,7 +44,7 @@ h2 {
   font-size: var(--h2);
 }
 
-h3 {
+h3, h4 {
   font-size: var(--h3);
 }
 
@@ -217,8 +217,40 @@ a:hover {
   height: 100%;
 }
 
+hr {           
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 0.5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.leftrecipeimage{
+  
+  height: 400px;
+  padding-left: 50px;
+  display: inline-block;
+  margin-bottom: 10px;
+display: flex;
+}
+
+.right ul{
+  float:right;
+  margin-top: 40px;
+  text-align: left;
+  padding-right: 80px;
+  font-size: 20px;
+}
+
+#movieSection img{
+  padding-top: 10px;
+  gap: 25px;
+
+}
+/*styling for Footer*/
 .site-footer {
-  background-image: url('image here');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -240,7 +272,7 @@ a:hover {
 .site-footer .container {
   position: relative;
 }
-
+/*Responsive Layout*/
 @media screen and (max-width: 1180px) {
   h1 {
     font-size: 62px;
@@ -284,4 +316,158 @@ a:hover {
     width: 50px;
     height: 50px;
   }
+}
+/*team menber styling starts here*/
+.membersection{
+    background: linear-gradient(90deg, purple, crimson );
+  height: 100%;
+
+ flex-direction: row;
+ 
+}
+.member1{
+  margin-top: 10px;
+cursor: pointer;
+
+}
+.frontface1
+{
+  height: 400px;
+  width: 500px;
+  background-color: black;
+  color: white;
+  margin-left: 500px;
+  border-radius: 40px;
+}
+.m1{
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding-top: 70px;
+}
+.frontface1 p{
+  font-size: 20px;
+  color: gray;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 15px;
+  
+}
+
+.member2{
+  margin-top: 10px;
+  cursor: pointer;
+}
+.frontface2
+{
+  height: 400px;
+  width: 500px;
+  background-color: black;
+  color: white;
+  margin-left: 500px;
+  border-radius: 20px;
+}
+.m2{
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding-top: 70px;
+}
+.frontface2 p{
+  font-size: 20px;
+  color: gray;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 15px;
+}
+
+
+.member3{
+  margin-top: 10px;
+  cursor: pointer;
+}
+.frontface3
+{
+  height: 400px;
+  width: 500px;
+  background-color: black;
+  color: white;
+  margin-left: 500px;
+  border-radius: 20px;
+}
+.m3{
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding-top: 70px;
+}
+.frontface3 p{
+  font-size: 20px;
+  color: gray;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 15px;
+}
+
+
+.member4{
+  margin-top: 10px;
+  cursor: pointer;
+}
+.frontface4
+{
+  height: 400px;
+  width: 500px;
+  background-color: black;
+  color: white;
+  margin-left: 500px;
+  border-radius: 20px;
+}
+.m4{
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding-top: 70px;
+}
+.frontface4 p{
+  font-size: 20px;
+  color: gray;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 15px;
+}
+/*team menber styling ends here*/
+
+.m1{
+  background:#111;
+  color:#fff;
+  text-shadow:1px 1px 10px rgb(226, 10, 21), 1px 1px 10px white;
+  font-size:48px;
+  text-align:center;
+}
+
+.m2{
+  background:#111;
+  color:#fff;
+  text-shadow:1px 1px 10px rgb(226, 10, 21), 1px 1px 10px white;
+  font-size:48px;
+  text-align:center;
+}
+.m3{
+  background:#111;
+  color:#fff;
+  text-shadow:1px 1px 10px rgb(226, 10, 21), 1px 1px 10px white;
+  font-size:48px;
+  text-align:center;
+}
+.m4{
+  background:#111;
+  color:#fff;
+  text-shadow:1px 1px 10px rgb(226, 10, 21), 1px 1px 10px white;
+  font-size:48px;
+  text-align:center;
 }

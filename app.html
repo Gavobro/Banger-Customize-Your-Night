@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="assets/images/logo_too_many_Chefs small.png" class="navbar-brand" alt="">
+            <a class="navbar-brand" href="index.html"> Bangé</a>
+
+            <div class="d-lg-none">
+                <a href="app.html">
+                    <button type="button" class="custom-btn btn btn-danger">Find Your Recipe</button>
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="app.html">Recipes/Movies</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-lg-block">
+                <a href="app.html">
+                    <button type="button" class="custom-btn btn btn-danger">Find Your Recipe</button>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="menu section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-lg-5 mb-4">Enter the name of a dish in the box down below, and select a movie!</h2>
+                </div>
+                <p class="text-center mb-0 me-3">Press the search button and enjoy an easy to follow recipe and a fun to watch movie based on your input below!</p>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" placeholder="Type a dish name" id="user-inp" />
+            <select name="movieSelection" id="movie-inp">
+                <Option value="popularity" id="popularity">Popularity</Option>
+                <Option value="comedy" id="comedy">Commedy</Option>
+                <Option value="drama" id="drama">Best Dramas Released</Option>
+            </select>
+
+            <button id="search-btn" type="button" class="custom-btn btn btn-danger">Search</button>
+        </div>
+        <div>
+
+            <div id="heading">
+                <h4 id="mealName"></h4>
+                <h4 id="cuisine"></h4>
+
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <img id="i" class="recipeimage" src="" alt="">
+                </div>
+                
+                <div id="ingred" class="ingredright">
+
+                </div>
+            </div>
+
+
+
+            <div id="instructions">
+
+            </div>
+            <!-- Video from you tube currently not workng?? To include???????? 
+            <div>
+            <iframe id="video" width="420" height="315" src="">                
+            </iframe>
+            
+        </div> -->
+        </div>
+
+        <div id="movieSection">
+
+        </div>
+          <hr>
+        <footer class="section-padding">
+            
+            <div class="container">
+                
+                <div class="row">
+
+                    <div class="col-12">
+                        <h3 class="text-center text-black mb-4 me-5"> <img src="assets/images/logo_too_many_Chefs small.png" class="navbar-brand" alt=""> Bangé</h3>
+                    </div>
+                </div>
+             </div>
+        </footer>
+        <script src="./app.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
