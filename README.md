@@ -5,6 +5,11 @@ The URL of the deployed application can be found here!:
 
 Our presentation can be found here: https://docs.google.com/presentation/d/1IhT2oI1JuzSWAksXY_PfDbukfKqgZyR9DvQmeUFjkR0/edit#slide=id.g1ab21bde689_3_1
 
+<video autoplay="" loop="" muted="" class="custom-video" poster="">
+                        <source src="assets/videos/DEMO-Video.mp4" type="video/mp4">
+                        	Your browser does not support the video tag.
+                    	</video>
+
 # Logo:
 <div align="center">
 <h3 class="text-center text-white mb-4 me-5"> <img src="assets/images/logo_too_many_Chefs small.png" class="navbar-brand" alt=""> Bangé</h3>
