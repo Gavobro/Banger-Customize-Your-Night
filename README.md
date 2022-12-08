@@ -5,15 +5,13 @@ The URL of the deployed application can be found here!:
 
 Our presentation can be found here: https://docs.google.com/presentation/d/1IhT2oI1JuzSWAksXY_PfDbukfKqgZyR9DvQmeUFjkR0/edit#slide=id.g1ab21bde689_3_1
 
-<video autoplay="" loop="" muted="" class="custom-video" poster="">
-                        <source src="assets/videos/DEMO-Video.mp4" type="video/mp4">
-                        	Your browser does not support the video tag.
-                    	</video>
-
 # Logo:
 <div align="center">
 <h3 class="text-center text-white mb-4 me-5"> <img src="assets/images/logo_too_many_Chefs small.png" class="navbar-brand" alt=""> Bangé</h3>
 </div>
+
+# Demo:
+https://user-images.githubusercontent.com/113049201/206571932-1c702849-ba59-4710-a227-09483336dbeb.mp4
 
 # What does it do?
 This application allows a user to select a “meal item” and movie genre, that they feel like eating and watching. The application will connect to two different APIs and give the user a random meal and movie for their enjoyment based on their selection.
