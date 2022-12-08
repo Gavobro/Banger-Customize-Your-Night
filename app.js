@@ -14,7 +14,7 @@ let imageUrl = "https://image.tmdb.org/t/p/w500"
 searchBtn.addEventListener("click", async () => {
     let userInp = document.getElementById("user-inp").value;
     if (userInp.length == 0) {
-        searchBtn.disabled = true;
+console.log(user.inp);
 
     } else {
         searchBtn.disabled = false;
